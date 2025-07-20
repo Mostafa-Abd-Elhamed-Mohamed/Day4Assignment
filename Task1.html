@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="Task1.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div>
+            <label>Name</label><br>
+            <input type="text" id="name"><br>
+            <div class="error" id="nameError"></div>
+        </div>
+        <div>
+            <label>ID</label><br>
+            <input type="number" id="id"><br>
+            <div class="error" id="idError"></div>
+        </div>
+        <div>
+            <label>Age</label><br>
+            <input type="number" id="age"><br>
+            <div class="error" id="ageError"></div>
+        </div>
+        <button onclick="addStudent()">Add Student</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="studentTable">
+        </tbody>
+    </table>
+
+    <script src="Task1.js"></script>
+
+</body>
+
+</html>

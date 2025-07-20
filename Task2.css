@@ -1,0 +1,60 @@
+ body {
+     background-color: #111;
+     color: white;
+     font-family: Arial, sans-serif;
+     text-align: center;
+ }
+
+ .container {
+     background-color: #777;
+     padding: 30px;
+     margin: 40px auto;
+     width: 400px;
+     border-radius: 10px;
+     box-shadow: 0 0 10px #000;
+ }
+
+ input[type="text"],
+ input[type="password"],
+ input[type="email"],
+ select {
+     width: 80%;
+     padding: 10px;
+     border-radius: 15px;
+     border: 2px solid black;
+     margin: 5px 0;
+     font-size: 1em;
+ }
+
+ input.invalid {
+     border: 2px solid red;
+ }
+
+ .error {
+     color: red;
+     font-size: 0.9em;
+     margin-bottom: 10px;
+     height: 16px;
+ }
+
+ .buttons {
+     margin-top: 20px;
+ }
+
+ button {
+     padding: 10px 25px;
+     border-radius: 20px;
+     font-size: 1em;
+     color: white;
+     border: none;
+     margin: 0 10px;
+     cursor: pointer;
+ }
+
+ #submitBtn {
+     background-color: green;
+ }
+
+ #resetBtn {
+     background-color: red;
+ }

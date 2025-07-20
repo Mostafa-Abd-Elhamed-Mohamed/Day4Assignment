@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Validation Game</title>
+    <link rel="stylesheet" href="Task2.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Validation Game</h2>
+
+        <form id="myForm">
+            <div>
+                <label>Name</label><br>
+                <input type="text" id="name">
+                <div class="error" id="nameError"></div>
+            </div>
+
+            <div>
+                <label>Pass</label><br>
+                <input type="password" id="pass">
+                <div class="error" id="passError"></div>
+            </div>
+
+            <div>
+                <label>Email</label><br>
+                <input type="text" id="email">
+                <div class="error" id="emailError"></div>
+            </div>
+
+            <div>
+                <label>Gender</label><br>
+                <input type="radio" name="gender" value="Male"> Male
+                <input type="radio" name="gender" value="Female"> Female
+                <div class="error" id="genderError"></div>
+            </div>
+
+            <div>
+                <label>Sport</label><br>
+                <input type="checkbox" name="sport" value="Tennis"> Tennis
+                <input type="checkbox" name="sport" value="Football"> Football
+                <input type="checkbox" name="sport" value="Volleyball"> Volleyball
+                <div class="error" id="sportError"></div>
+            </div>
+
+            <div>
+                <label>Country</label><br>
+                <select id="country">
+                    <option>Egyptian</option>
+                    <option>American</option>
+                    <option>French</option>
+                </select>
+            </div>
+
+            <div class="buttons">
+                <button type="submit" id="submitBtn">Submit</button>
+                <button type="reset" id="resetBtn">Reset</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="Task2.js"> </script>
+
+</body>
+
+</html>
